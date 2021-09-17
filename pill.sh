@@ -1,0 +1,123 @@
+#!/bin/bash
+
+function select_random() {
+    local clip="https://www.twitch.tv/each_ssi/clip/"
+
+    case $(($RANDOM % 34)) in
+        0) 
+            clip=$clip"MagnificentDeliciousRavenBCWarrior?filter=clips&range=all&sort=time" 
+            ;;
+        1)
+            clip=$clip"KawaiiGiftedCrabTebowing-id1G45Y3STsRYQ0y?filter=clips&range=all&sort=time" 
+            ;;
+        2)
+            clip=$clip"SoftImpossibleTruffleDancingBanana?filter=clips&range=all&sort=time"
+            ;;
+        3)
+            clip=$clip"RefinedDepressedFlyYee?filter=clips&range=all&sort=time"
+            ;;
+        4)
+            clip=$clip"HealthyRamshackleJuiceSSSsss-1RIBaJM-UIchCkL0?filter=clips&range=all&sort=time"
+            ;;
+        5)
+            clip=$clip"SourSneakyMagpiePupper-yIlXkAsPBGdG8cRt?filter=clips&range=all&sort=time"
+            ;;
+        6)
+            clip=$clip"BashfulMoistTitanAllenHuhu?filter=clips&range=all&sort=time"
+            ;;
+        7)
+            clip=$clip"ExquisiteHandsomeOpossumCurseLit?filter=clips&range=all&sort=time"
+            ;;
+        8)
+            clip=$clip"FrailDaintyCatWutFace?filter=clips&range=all&sort=time"
+            ;;
+        9)
+            clip=$clip"EasyIntelligentCougarKappaRoss-6kU9Y7FyUYH6lzwz?filter=clips&range=all&sort=time"
+            ;;
+        10)
+            clip=$clip"ArbitraryDiligentDragonDeIlluminati-S2HgUxfLg2kY1fxZ?filter=clips&range=all&sort=time"
+            ;;
+        11)
+            clip=$clip"TrappedImpartialSparrowPupper-WhjQeGBxVNqAll9r?filter=clips&range=all&sort=time"
+            ;;
+        12)
+            clip=$clip"JollyMagnificentMonkeyRedCoat?filter=clips&range=all&sort=time"
+            ;;
+        13)
+            clip=$clip"AmorphousEsteemedScorpionBibleThump-NABLXDniU5fC9qw0?filter=clips&range=all&sort=time"
+            ;;
+        14)
+            clip=$clip"BreakableSquareTurtleKappaClaus?filter=clips&range=all&sort=time"
+            ;;
+        15)
+            clip=$clip"HorribleLachrymoseEggnogShadyLulu-bXrVRB3VFrkmROv5?filter=clips&range=all&sort=time"
+            ;;
+        16)
+            clip=$clip"WealthyVibrantKoupreyNerfBlueBlaster-CilyPn7u0EgLyobv?filter=clips&range=all&sort=time"
+            ;;
+        17)
+            clip=$clip"ManlyWonderfulMochaDeIlluminati-tfhnC-_BsB08o4H7?filter=clips&range=all&sort=time"
+            ;;
+        18)
+            clip=$clip"SpineyCarelessWalrusGOWSkull?filter=clips&range=all&sort=time"
+            ;;
+        19)
+            clip=$clip"TubularBashfulKumquatTebowing?filter=clips&range=all&sort=time"
+            ;;
+        20)
+            clip=$clip"WonderfulSlipperySlothWTRuck-3u6qaCT__TtObJ0k?filter=clips&range=all&sort=time"
+            ;;
+        21)
+            clip=$clip"ElatedGlamorousBaboonPhilosoraptor?filter=clips&range=all&sort=time"
+            ;;
+        22)
+            clip=$clip"WonderfulSarcasticLasagna4Head-2YYgph1GCgrUv_mz?filter=clips&range=all&sort=time"
+            ;;
+        23)
+            clip=$clip"PlausibleToughMarjoramOMGScoots?filter=clips&range=all&sort=time"
+            ;;
+        24)
+            clip=$clip"TransparentUgliestOrcaPogChamp?filter=clips&range=all&sort=time"
+            ;;
+        25)
+            clip=$clip"DeadAuspiciousKittenAMPEnergyCherry?filter=clips&range=all&sort=time"
+            ;;
+        26)
+            clip=$clip"PlumpHappySoybeanMau5?filter=clips&range=all&sort=time"
+            ;;
+        27)
+            clip=$clip"PunchyDullOwlDBstyle-fwrzMmcBs53gaemG?filter=clips&range=all&sort=time"
+            ;;
+        26)
+            clip=$clip"HilariousAgreeableSashimiGrammarKing?filter=clips&range=all&sort=time"
+            ;;
+        27)
+            clip=$clip"AdorableCulturedBillPJSugar-AnaH9xoZDVpAKIze?filter=clips&range=all&sort=time"
+            ;;
+        28)
+            clip=$clip"AlertAbstruseTruffleUWot-SebWndifAJ3XQaPW?filter=clips&range=all&sort=time"
+            ;;
+        29)
+            clip=$clip"VastFantasticRadishTheTarFu-Mr3A4eu7Q7jp0RYt?filter=clips&range=all&sort=time"
+            ;;
+        30)
+            clip=$clip"ConcernedRelievedWhaleBigBrother?filter=clips&range=all&sort=time"
+            ;;
+        31)
+            clip=$clip"AffluentCharmingMousePrimeMe-RCoRnxQMwsIfxJ_a?filter=clips&range=all&sort=time"
+            ;;
+        32)
+            clip=$clip"CheerfulIronicAppleCorgiDerp-icpAD-W7leso1EMs?filter=clips&range=all&sort=time"
+            ;;
+        33)
+            clip=$clip"AggressiveCleanLapwingTheThing-UAJ2CBVflRKrW8-Q?filter=clips&range=all&sort=time"
+            ;;
+        33)
+            clip=$clip"NeighborlyEsteemedPlumRitzMitz-6xSIkPIx88L-61wv?filter=clips&range=all&sort=time"
+            ;;
+    esac
+
+    xdg-open $clip
+}
+
+select_random
